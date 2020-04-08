@@ -20,13 +20,6 @@ user_entry = input('Enter the name of your start-up: ')
 vowels_array2 = ['a', 'e', 'i', 'o', 'u']
 vowels_indexes = range(len(vowels_array2))
 
-# for y in user_entry:
-#     print(y)
-#     for x in vowels_array2:
-#         if y == vowels_array2[x]:
-#             print(y)
-#             print(vowels_array2[x])
-
 answer = ''
 #iterate through the user's entry
 for y in user_entry:
